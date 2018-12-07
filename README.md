@@ -1,3 +1,7 @@
+基于Vant-demo项目开发 相关文档见 https://youzan.github.io/vant/#/zh-CN/intro
+
+一下为Vant-demo脚手架的相关说明
+
 # Vant-demo
 Vant 示例工程，基于 vue-cli 3 搭建。
 
@@ -18,7 +22,6 @@ theme 工程在 base 工程的基础上增加了自定义主题色的配置。
 
 
 ## 预览
-<img src="https://img.yzcdn.cn/public_files/2017/11/16/4b7eb956ba7d30d374a2310124bdb5fe.png" alt="demos" width="600" />
 
 ## 开发命令
 

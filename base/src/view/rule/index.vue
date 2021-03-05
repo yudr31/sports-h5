@@ -351,10 +351,10 @@ export default {
 		align-item:center;
 		width:100%;
 		.van-cell{
-			.van-cell__title{
-				width:100%;
-				font-size: 24px;
-			}
+			// .van-cell__title{
+			//	width:100%;
+			//	font-size: 24px;
+			//}
 			.van-cell__label{
 				width:100%;
 			}

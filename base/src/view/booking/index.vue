@@ -25,7 +25,7 @@
             </van-radio-group>
         </van-actionsheet>
         <van-actionsheet v-model="showBookingDate" title="请选择日期">
-            <van-checkbox-group v-model="result">
+            <van-checkbox-group v-model="result" @change="changeBookDate()">
                 <van-cell-group>
                     <van-cell v-for="(item, index) in dayList" clickable :key="item.id" :title="item.name" @click="toggle(index)">
                         <van-checkbox :name="item.name" ref="checkboxes" />
@@ -245,6 +245,10 @@ export default {
                 {
                     value: '2',
                     label: '电话'
+                },
+                {
+                    value: '3',
+                    label: '钉钉'
                 }
             ],
             hourList: [
@@ -410,7 +414,9 @@ export default {
             });
         },
         toggle(index) {
-            this.$refs.checkboxes[index].toggle();
+            this.$refs.checkboxes[index].toggle();            
+        },
+        changeBookDate(){
             this.param.bookingDate = this.result.join(',');
         },
         onClickLeft() {

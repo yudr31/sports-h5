@@ -1,18 +1,18 @@
 <template>
     <div>
-        <img class="user-poster" src="https://img.yzcdn.cn/public_files/2017/10/23/8690bb321356070e0b8c4404d087f8fd.png">
+        <img class="user-poster" src="logo.png">
         <van-row class="user-links">
             <van-col span="8">
                 <van-icon name="pending-payment" @click="query" />
                 趣运动账号
             </van-col>
             <van-col span="8">
-                <van-icon name="pending-orders" @click="rule"/>
+                <van-icon name="setting-o" @click="rule"/>
                 订场设置
             </van-col>
             <van-col span="8">
-                <van-icon name="pending-deliver" @click="notice"/>
-                通知设置
+                <van-icon name="envelop-o" @click="notice"/>
+                通知信息
             </van-col>
             <!--<van-col span="6">
                 <van-icon name="logistics" />

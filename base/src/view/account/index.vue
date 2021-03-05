@@ -219,24 +219,24 @@ export default {
 }
 .demo-swipe-cell {
     user-select: none;
-    .van-swipe-cell {
-        .van-swipe-cell__wrapper{
-            .van-cell{
-                .van-cell__title{
-                    width:100%;
-                    font-size: 14px;
-                }
-            }
-        }
-        &__right {
-            color: white;
-            font-size: 15px;
-            width: 65px;
-            display: inline-block;
-            text-align: center;
-            line-height: 44px;
-            background-color: red;
-        }
-    }
+    // .van-swipe-cell {
+        // .van-swipe-cell__wrapper{
+        //     .van-cell{
+        //         .van-cell__title{
+        //             width:100%;
+        //             font-size: 14px;
+        //         }
+        //     }
+        // }
+        // &__right {
+        //     color: white;
+        //     font-size: 15px;
+        //     width: 65px;
+        //     display: inline-block;
+        //     text-align: center;
+        //     line-height: 44px;
+        //     background-color: red;
+        // }
+    // }
 }
 </style>
